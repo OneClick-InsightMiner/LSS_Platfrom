@@ -1,0 +1,47 @@
+[debug] [2025-10-02T08:19:41.124Z] ----------------------------------------------------------------------
+[debug] [2025-10-02T08:19:41.128Z] Command:       C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-10-02T08:19:41.128Z] CLI Version:   14.17.0
+[debug] [2025-10-02T08:19:41.128Z] Platform:      win32
+[debug] [2025-10-02T08:19:41.128Z] Node Version:  v24.6.0
+[debug] [2025-10-02T08:19:41.128Z] Time:          Thu Oct 02 2025 10:19:41 GMT+0200 (heure d’été d’Europe centrale)
+[debug] [2025-10-02T08:19:41.128Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-02T08:19:41.135Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-02T08:19:41.135Z] > authorizing via signed-in user (youssef.chebihi@restorfx.ch)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\chebi\LSS_Platfrom
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-10-02T08:19:53.680Z] Using project from CLI flag: studio-69644392-9e4f2
+[debug] [2025-10-02T08:19:53.683Z] Checked if tokens are valid: true, expires at: 1759396712423
+[debug] [2025-10-02T08:19:53.684Z] Checked if tokens are valid: true, expires at: 1759396712423
+[debug] [2025-10-02T08:19:53.686Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/studio-69644392-9e4f2 [none]
+[debug] [2025-10-02T08:19:54.008Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/studio-69644392-9e4f2 200
+[debug] [2025-10-02T08:19:54.009Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/studio-69644392-9e4f2 {"projectId":"studio-69644392-9e4f2","projectNumber":"883796073115","displayName":"Firebase app","name":"projects/studio-69644392-9e4f2","resources":{"hostingSite":"studio-69644392-9e4f2"},"state":"ACTIVE","etag":"1_2ae1a624-0ce3-4328-9293-b29e875419e7"}
+[info] i  Using project studio-69644392-9e4f2 (Firebase app) 
+[info] 
+=== Hosting Setup
+[debug] [2025-10-02T08:19:54.109Z] Checked if tokens are valid: true, expires at: 1759396712423
+[debug] [2025-10-02T08:19:54.109Z] Checked if tokens are valid: true, expires at: 1759396712423
+[debug] [2025-10-02T08:19:54.110Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/studio-69644392-9e4f2 [none]
+[debug] [2025-10-02T08:19:54.367Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/studio-69644392-9e4f2 200
+[debug] [2025-10-02T08:19:54.367Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/studio-69644392-9e4f2 {"projectId":"studio-69644392-9e4f2","projectNumber":"883796073115","displayName":"Firebase app","name":"projects/studio-69644392-9e4f2","resources":{"hostingSite":"studio-69644392-9e4f2"},"state":"ACTIVE","etag":"1_2ae1a624-0ce3-4328-9293-b29e875419e7"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
